@@ -1,5 +1,5 @@
 # 35462899Assignment2
-Student ID: 35462899 
-Student Name: Rafael Gilberto Chavez Castro
+<p>Student ID: 35462899</p>
+<p>Student Name: Rafael Gilberto Chavez Castro</p>
 
-Domain name: www.rcdesign202x.com
+<p>Domain name: www.rcdesign202x.com</p>
