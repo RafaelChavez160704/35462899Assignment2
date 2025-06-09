@@ -17,7 +17,10 @@ ___________________________________________________________________
 
 <h3>How did I set up my web server?</h3>
 
-To launch an Ubuntu machine on Amazon EC2, begin by signing into the AWS Management Console and navigating to the EC2 Dashboard. From there, select the option to launch a new instance—this will start the process of setting up a virtual server in the cloud. For the operating system, choose the Ubuntu Server 20.04 LTS image that is labeled “Free tier eligible”. When choosing the instance type, stick with t2.micro, which qualifies for the AWS Free Tier and is sufficient for basic web server tasks.
+<p>First, I created an account on Amazon Web Services. Next, I went to the EC2 dashboard and clicked on the "Launch Instance" button, which started the process of setting up a virtual server in the cloud. From there, I chose the Ubuntu Server 20.04 LTS image labeled as “Free tier eligible” while sticking with t2.micro. (AWS Free Tier, sufficient for basic web server tasks.) 
+
+<img width="847" alt="image" src="https://github.com/user-attachments/assets/39ca41ff-ac85-4cff-8e7f-d0e79740f84f" />
+
 
 Next, proceed through the configuration steps. Under “Configure Instance Details,” you can leave all the default settings untouched. On the “Add Storage” step, the system will automatically allocate an 8GB root volume to your machine—this is appropriate for most lightweight uses, so you can leave it unchanged. There’s no need to add tags, so you can skip directly to configuring the Security Group, which controls what kind of network traffic can reach your instance.
 
