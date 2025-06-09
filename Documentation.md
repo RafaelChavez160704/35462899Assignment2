@@ -25,6 +25,9 @@ ___________________________________________________________________
 
 <img width="774" alt="image" src="https://github.com/user-attachments/assets/b9600d4e-2cc4-44e5-bee7-5ac9a1f52bcd" />
 
+<img width="776" alt="image" src="https://github.com/user-attachments/assets/86760dee-c131-445e-8173-9c09d84a3ae9" />
+
+
 
 <h3>How did I link it with a DNS entry?</h3>
 
