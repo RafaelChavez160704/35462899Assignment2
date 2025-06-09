@@ -13,4 +13,10 @@ ___________________________________________________________________
 
 <p>This project serves two main purposes: First, to present the work I developed during my graphic design studies in a cohesive and visually appealing format; and second, to demonstrate my ability to apply the technical skills gained in my IT degree so far by hosting this website on Amazon EC2, thus gaining hands hands-on experience and giving me greater control over server management, deployment, and scalability. The portfolio website features a home page introducing me and my creative background, a gallery section organizing my work by category (e.g., branding, typography, UI/UX, illustration), and a contact page with links to my professional profiles (e.g., LinkedIn) and resume. I aim to design the site with responsiveness, accessibility, and user experience in mind, showcasing both my design sensibility and growing web development skills.</p>
 
+<h2>Development Process</h2>
+
+<h3>How did I set up my web server?</h3>
+
+<h3>How did I set up my web server?</h3>
+
 
