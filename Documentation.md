@@ -45,10 +45,8 @@ ___________________________________________________________________
 
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/ac59f149-1ee4-4986-b4b4-6b7d1061778e" />
 
-
-
 <h3>How did I link it with a DNS entry?</h3>
 
-<p>...</p>
+<p>After configuring my virtual machine and making sure it is running, I used it to install the Apache web server using the "sudo apt install apache2" command in Linux. Then, I opened my browser and searched my Public IP Address to ensure the Apache welcome page is running.</p>
 
 <img width="983" alt="image" src="https://github.com/user-attachments/assets/918db9b3-6a96-49cc-8a96-05734c649af6" />
