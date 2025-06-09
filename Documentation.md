@@ -43,8 +43,6 @@ ___________________________________________________________________
 
 <h2></h2>
 
-<img width="948" alt="image" src="https://github.com/user-attachments/assets/0b107440-7d9a-47c5-ac78-701baac3bf4a" />
-
 
 
 
