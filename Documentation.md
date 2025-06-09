@@ -17,16 +17,8 @@ ___________________________________________________________________
 
 <h3>How did I set up my web server?</h3>
 
-<p>First, I created an account on Amazon Web Services. Next, I went to the EC2 dashboard and clicked on the "Launch Instance" button, which started the process of setting up a virtual server in the cloud. From there, I chose the Ubuntu Server 20.04 LTS image labeled as “Free tier eligible” while sticking with t2.micro. (AWS Free Tier, sufficient for basic web server tasks.) 
+<p>First, I created an account on Amazon Web Services. Next, I went to the EC2 dashboard and clicked on the "Launch Instance" button, which started the process of setting up a virtual server in the cloud. From there, I chose the Ubuntu Server 20.04 LTS image labeled as “Free tier eligible” while sticking with t2.micro. (AWS Free Tier, sufficient for basic web server tasks.), ahd left all settings on default, including the storage of the server, which was automatically allocated by the system with a size of 8 GB. After that, I created an "ssh-and-web" group, as Amazon Web Services already included an SSH rule, which allows me to connect to my instance through an SSH client. After reviewing my setup, I clicked on the "Launch" button, and Amazon Web Services asked me if I preferred to select and use an existing key pair or create a new one. I chose the second option, gave it a name, and downloaded the .pem file that was generated afterwards. (Since the key cannot be replaced or recovered if lost, I made sure to save and store it both on the cloud and my computer.)
 
-<img width="847" alt="image" src="https://github.com/user-attachments/assets/39ca41ff-ac85-4cff-8e7f-d0e79740f84f" />
-
-
-Next, proceed through the configuration steps. Under “Configure Instance Details,” you can leave all the default settings untouched. On the “Add Storage” step, the system will automatically allocate an 8GB root volume to your machine—this is appropriate for most lightweight uses, so you can leave it unchanged. There’s no need to add tags, so you can skip directly to configuring the Security Group, which controls what kind of network traffic can reach your instance.
-
-Create a new security group named "ssh-and-web". AWS will already include an SSH rule by default, which allows you to connect to your instance remotely via an SSH client. However, since you’re preparing this server to host a website, you’ll also need to manually add an HTTP rule. This rule allows incoming web traffic on port 80, which is essential for users to access your site through a browser.
-
-After reviewing your setup, click the "Launch" button. At this point, AWS will prompt you to either select an existing key pair or create a new one. Create a new key pair and give it a memorable name like "webserver-key". Download and securely store the .pem file that is generated—this key is critical for accessing your instance later, and if lost, cannot be recovered or replaced.
 
 Finally, click "Launch Instance" to create your EC2 virtual machine. You may see a warning stating that your instance is accessible from the internet; this is expected since it’s intended to function as a public-facing web server. Once launched, use the "View Instances" button to monitor the status of your instance. When the instance state reads “Running” and the status checks pass, your Ubuntu EC2 server is live and ready for SSH access and further configuration.
 
