@@ -19,6 +19,9 @@ ___________________________________________________________________
 
 <p>...</p>
 
+<img width="774" alt="image" src="https://github.com/user-attachments/assets/b9600d4e-2cc4-44e5-bee7-5ac9a1f52bcd" />
+
+
 <h3>How did I link it with a DNS entry?</h3>
 
 <p>...</p>
