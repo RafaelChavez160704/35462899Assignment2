@@ -47,12 +47,22 @@ ___________________________________________________________________
 
 <h3>How did I link it with a DNS entry?</h3>
 
-<p>After configuring my virtual machine and making sure it is running, I used it to install the Apache web server using the "sudo apt install apache2" command in Linux. Then, I opened my browser and searched my Public IP Address to ensure the Apache welcome page is running.</p>
+<p>Once I set up my virtual machine and made sure it is running, I used it to install the Apache web server using the "sudo apt install apache2" command in Linux. Then, I opened my browser and searched my Public IP Address to ensure the Apache welcome page is running.</p>
 
 <img width="677" alt="image" src="https://github.com/user-attachments/assets/18ebdc55-7ea0-40a0-b672-738aad8766f0" />
 
+<h2></h2>
+
+<p>After purchasing my domain name, I linked it to my virtual machine and started running tests and troubleshooting until I was able to browse my website and reach my page by entering my domain name into my browser.</p>
+
+<h2></h2>
 
 <img width="746" alt="image" src="https://github.com/user-attachments/assets/ef30f5d6-6896-4112-89ab-194de2ba4eca" />
 
+<h1></h1>
 
-<img width="983" alt="image" src="https://github.com/user-attachments/assets/918db9b3-6a96-49cc-8a96-05734c649af6" />
+<p></p>
+
+<h2>Web Server Running (Assignment 1)</h2>
+
+<img width="1192" alt="image" src="https://github.com/user-attachments/assets/d8f6eb77-4104-4f33-9245-baab93f041f0" />
