@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Chavez | Graphic Design Portfolio</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #e67e22;
+            --light: #ecf0f1;
+            --dark: #1a252f;
+            --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            font-family: var(--font-main);
+            background-color: var(--light);
+            color: var(--primary);
+        }
+
+        header {
+            background-color: red;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        nav {
+            background-color: var(--primary);
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+        }
+
+
+        .gallery-item {
+            background-color: white;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        /* GALLERY 2*/
+
+        .gallery2 {
+            display: grid;
+            gap: 1rem;
+        }
+
+
+        .gallery-item2 {
+            background-color: white;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .gallery-item2 img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        /* GALLERY 2 - CLOSE*/
+
+        .contact {
+            background-color: var(--dark);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .contact a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            background-color: var(--primary);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Rafael Chavez</h1>
+    <p>Graphic Designer | Information Technology Student</p>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Rafael Gilberto Chavez Castro, and I am an international student from El Salvador, a country located in Central America. I arrived in Australia in 2022 to pursue a degree in Graphic Design. I have successfully completed Certificates III and IV, as well as a Diploma in Graphic Design at North Metropolitan TAFE. </p>
+
+<p>However, I discovered that Graphic Design was not in high demand as it once was, so I decided to shift my studies to a field with better opportunities for success in Australia: Information Technology. Regardless, I decided to create this professional online portfolio to showcase all my graphic design projects on this portfolio website.</p>
+
+<p>I can offer skills in attention to detail, customer service, and creative thinking. I'm a friendly, hard-working, and reliable person who's willing to learn and gain as much experience as possible. I'm also capable of keeping a long-term position and am skilled in working under pressure and adapting to new situations and challenges to best enhance the organizational brand. </p>
+
+</section>
+
+<section id="portfolio">
+    <h2>Branding Design Examples</h2>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXci2_kaW_WCdz2EnQz-oFDpX0G2c-_6ap53esqjRHxSy_O6Ta5bEcfYrDiRjUhKPtS8znJikDyZ_aB-uyuUW9BtBta2TVCJRZ0KnlJ3wQrgCvWSM-ZqzfzT7QrHrNYC66_nzGPJug?key=ZT0B5gO_6Zaq5E5604rXBw" alt="Project 1">
+            <p><strong>EXAMPLE 01</strong></p>
+        </div>
+        <div class="gallery-item">
+            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfqR2n0URJt0Sx-ihha0ldN7M5atyAKwBii7Z81U8rWH2YRDkAG-hdFQMH5Sa48dvemziN-z7nFOgpoxyp1E4EZzaWmMq3ePolIp97-fPWr5ttvwAjJ-ex83Pkq7xt1jB-dKDsUNg?key=ZT0B5gO_6Zaq5E5604rXBw" alt="Project 2">
+            <p><strong>EXAMPLE 02</strong></p>
+        </div>
+        <div class="gallery-item">
+            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcRIrW1lGExydwmVlcGrfrtXhI9R70sbvfkWwdGYzoLVe72T61UUluuxBfPea12FsBbOUJoVRxBqoLOxhrH7uZ7l7a67chM_ydA7c3fDxstxG32tfqWcLXBmr-c3cH-DzEA3Bb93g?key=ZT0B5gO_6Zaq5E5604rXBw" alt="Project 3">
+            <p><strong>EXAMPLE 03</strong></p>
+        </div>
+        <div class="gallery-item">
+            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfbeQ6eofJjQ5S_ILRpMdljGgdZXpx-ETJBWWAr7dYucD9t7oYkj2Qgox1QfJqMyKNIZMFXknBEleqb-kPmwD0TfVaKA7R1HkXy98L2kBNlZmuW1m_mM5k4h6_I0bupbEKld6x4YA?key=ZT0B5gO_6Zaq5E5604rXBw" alt="Project 4">
+            <p><strong>EXAMPLE 04</strong></p>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <h2>Web Design</h2>
+    <div class="gallery2">
+        <div class="gallery-item2">
+            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcnL2A6r595J2sImtbNKXX_UqRTztfDhMsVUYN8wL6DfqBwtK4BJr2DJKMj82dIyYak5TfjILtc8DdhBA12N8D8A_GrYg_DXzFZX9UR8Z753hnXDG1nCT0wriJDM-h4WTL6vqY_3A?key=ZT0B5gO_6Zaq5E5604rXBw" alt="Project 1">
+            <p><strong>EXAMPLE 01</strong></p>
+        </div>
+        <div class="gallery-item2">
+            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfahAdQHRv_R9pIoe9xMNuirm1AaE8Hlz4i0ihojM0_lzwF0GGjtL_CT4KWN08b_M6vbY2PusWbYPV7eeHh3LCHknd-o2o3BLpkPVE61h4YFNuGmm0zPZ1aoS1VNX_3Rp23dgZd?key=ZT0B5gO_6Zaq5E5604rXBw" alt="Project 2">
+            <p><strong>EXAMPLE 02</strong></p>
+        </div>
+        <div class="gallery-item2">
+            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd3EkvhCc8ekp9rPXooQuUj5eVB86n31WU-QE86luVed7gIfqTQyhpY2Oh-bKGMfBaW6tVazWN1_jDdYYsauNN7ZBjkIMMYwc9Ss0FhI-HoHb0jueZ11oMvEOrwykUWWx3ybrus?key=ZT0B5gO_6Zaq5E5604rXBw" alt="Project 3">
+            <p><strong>EXAMPLE 03</strong></p>
+        </div>
+        <div class="gallery-item2">
+            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeuH2WZu_dnixoMEshRz0EwpVCw82XEWEI27l-JvrPdpFpxUcbVqeVnXsDhHyXEuD15vH-AWp0DJdqlzush0Wjv-M6L993tfhNvtmnhW8v5HxZDgSOTA94mF3n4sRrBscTIoeUApw?key=ZT0B5gO_6Zaq5E5604rXBw" alt="Project 4">
+            <p><strong>EXAMPLE 04</strong></p>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <h2>Print Design</h2>
+    <div class="gallery2">
+        <div class="gallery-item2">
+            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdAYkqkXDNw58MgszQ1Ds-sMJuFH3tPF8dDYt2o419CJiNkTd8qzGifttD56HXX87oXPOZTiMMQs-JIWAMQ34uOZdWayzhSdqBReAB18RFYtwxKSmwXCW9ywUW8M1bzaKw120o1Xg?key=ZT0B5gO_6Zaq5E5604rXBw" alt="Project 1">
+            <p><strong>EXAMPLE 01</strong></p>
+        </div>
+        <div class="gallery-item2">
+            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdY16pO1_rngyAC_SkXR94KhgRxuaXmg9kRH-vLKyvbuN2XZzI-D_bVik82zIcWmwm1egyw0CFLOl-Utzd0u60mQn5r4snuYbufqHtq69EDONSk2dQbFzf2bNsrRsas2cG0MDd3XA?key=ZT0B5gO_6Zaq5E5604rXBw" alt="Project 2">
+            <p><strong>EXAMPLE 02</strong></p>
+        </div>
+        <div class="gallery-item2">
+            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHYC2ZY7YGJmVFJkLsn75SYdnc36-cZXNrcP5UsnijHFDH4JY_sGG6H_O4ab8jNEc_j81X-e7jT1YGJV37JA86RMpUsxJF4_fK6WXHGHpsNEhS8nzZkfdMSqfVZ9OxOLdaRTvebw?key=ZT0B5gO_6Zaq5E5604rXBw" alt="Project 3">
+            <p><strong>EXAMPLE 03</strong></p>
+        </div>
+        <div class="gallery-item2">
+            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf0J3QxJegIuMTU3uEE9wzRVj20TJZ9rls9EIMG_nLw0iSwFqyn_zhrvVhv86v86FenSSDXHiY_efvF9xiCeiexGMkyVa3jCCeYgGm1XdEJFmBK0SMoVfi024cwosPIXZoQ1Fd0?key=ZT0B5gO_6Zaq5E5604rXBw" alt="Project 4">
+            <p><strong>EXAMPLE 04</strong></p>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <h2>Packaging Design</h2>
+    <div class="gallery2">
+        <div class="gallery-item2">
+            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQUd_QgugrKUpfKEkRCeAZqBIBAqqtsNCWmBfp_IoyhNw9vlzoVzSxt__ZfLxITVKB3-4c2wNx5v4hdJceDwEe9k4rMriL7QEmiOXmLFB0SFEW9Doc-a8fnu00QD0IsCe88ku9?key=ZT0B5gO_6Zaq5E5604rXBw" alt="Project 1">
+            <p><strong>EXAMPLE 01</strong></p>
+        </div>
+        <div class="gallery-item2">
+            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd6pnRy5azMR3rlGnOtc-572Vnyq34wtoKNgTWxv49GCWfu1sKBznBnxQOFnWHzhe_sh_a8M9v9nBNmFU7l8bJJh-lXrZdipr9isxLurczsxSBdCl2Dkj9CZl4fyNf7Wjxkb25i2A?key=ZT0B5gO_6Zaq5E5604rXBw" alt="Project 2">
+            <p><strong>EXAMPLE 02</strong></p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out for any collaborations or project inquiries!</p>
+    <p><b>Email:</b> 35462899@student.murdoch.edu.au</p>
+    <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/rafael-gilberto-chavez-castro-004066286" target="_blank">https://www.linkedin.com/in/rafael-gilberto-chavez-castro-004066286</a></p>
+</section>
+
+<footer>
+    <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png" alt="CC BY-NC-ND">
+</footer>
+
+</body>
+</html>
