@@ -43,7 +43,8 @@ ___________________________________________________________________
 
 <h2></h2>
 
-<img width="949" alt="image" src="[https://github.com/user-attachments/assets/6e30e6c0-ae2a-45f1-99e8-ed9a579722ed" />
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/ac59f149-1ee4-4986-b4b4-6b7d1061778e" />
+
 
 
 <h3>How did I link it with a DNS entry?</h3>
