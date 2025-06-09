@@ -37,6 +37,16 @@ ___________________________________________________________________
 
 <img width="771" alt="image" src="https://github.com/user-attachments/assets/d5451552-a447-4d7d-8a50-6fe1ffb513d5" />
 
+<h3>Instance Summary for my web server:</h3>
+
+<img width="949" alt="image" src="https://github.com/user-attachments/assets/440edf0d-f077-423a-9081-cee35e12cc59" />
+
+<h2></h2>
+
+<img width="948" alt="image" src="https://github.com/user-attachments/assets/0b107440-7d9a-47c5-ac78-701baac3bf4a" />
+
+
+
 
 <h3>How did I link it with a DNS entry?</h3>
 
