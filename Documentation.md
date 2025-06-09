@@ -49,4 +49,10 @@ ___________________________________________________________________
 
 <p>After configuring my virtual machine and making sure it is running, I used it to install the Apache web server using the "sudo apt install apache2" command in Linux. Then, I opened my browser and searched my Public IP Address to ensure the Apache welcome page is running.</p>
 
+<img width="677" alt="image" src="https://github.com/user-attachments/assets/18ebdc55-7ea0-40a0-b672-738aad8766f0" />
+
+
+<img width="746" alt="image" src="https://github.com/user-attachments/assets/ef30f5d6-6896-4112-89ab-194de2ba4eca" />
+
+
 <img width="983" alt="image" src="https://github.com/user-attachments/assets/918db9b3-6a96-49cc-8a96-05734c649af6" />
