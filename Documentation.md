@@ -17,6 +17,8 @@ ___________________________________________________________________
 
 <h3>How did I set up my web server?</h3>
 
-<h3>How did I set up my web server?</h3>
 
 
+<h3>How did I link it with a DNS entry?</h3>
+
+<img width="983" alt="image" src="https://github.com/user-attachments/assets/918db9b3-6a96-49cc-8a96-05734c649af6" />
