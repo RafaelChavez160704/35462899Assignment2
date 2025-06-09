@@ -25,14 +25,17 @@ ___________________________________________________________________
 
 <img width="774" alt="image" src="https://github.com/user-attachments/assets/b9600d4e-2cc4-44e5-bee7-5ac9a1f52bcd" />
 
-<p></p>
+<h2></h2>
 
 <img width="776" alt="image" src="https://github.com/user-attachments/assets/86760dee-c131-445e-8173-9c09d84a3ae9" />
 
-<p></p>
+<h2></h2>
 
 <img width="771" alt="image" src="https://github.com/user-attachments/assets/e886738e-1ab5-4204-95cf-0c242826bf78" />
 
+<h2></h2>
+
+<img width="771" alt="image" src="https://github.com/user-attachments/assets/d5451552-a447-4d7d-8a50-6fe1ffb513d5" />
 
 
 <h3>How did I link it with a DNS entry?</h3>
